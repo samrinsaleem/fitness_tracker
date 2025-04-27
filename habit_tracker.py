@@ -127,7 +127,7 @@ else:
 # --- Save Section ---
 st.subheader("Save Your Progress:")
 
-default_save_path = "C:\\Users\\samri\\Desktop\\Habit.csv"
+default_save_path = ".\Habit.csv"
 save_folder = st.text_input("File Path:", default_save_path)
 
 if st.button("Save Progress"):
